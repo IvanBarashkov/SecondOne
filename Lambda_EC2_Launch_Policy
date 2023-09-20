@@ -8,7 +8,7 @@
                 "iam:AttachRolePolicy",
                 "iam:AddRoleToInstanceProfile"
             ],
-            "Resource": "arn:aws:iam::503789714686:role/EC2_SSM_Read"
+            "Resource": "arn:aws:iam::ACCOUNT_ID:role/SSM_READ_POLICY_ROLE"
         },
         {
             "Effect": "Allow",
